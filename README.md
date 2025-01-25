@@ -37,7 +37,7 @@ A powerful deep learning model for automated lung CT scan analysis using Convolu
 git clone https://github.com/yourusername/lung-ct-analysis.git
 cd lung-ct-analysis
 pip install -r requirements.txt
-```
+
 
 LungCT/
 ├── training/
@@ -48,6 +48,7 @@ LungCT/
 │       ├── mask1.dcm
 │       └── mask2.nii
 └── ct_results/
+```
 
 mkdir -p LungCT/training/scans
 mkdir -p LungCT/training/masks
