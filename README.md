@@ -59,25 +59,43 @@ python lung_ct_cnn.py
 
 
 Model Architecture
+
 Input Layer: 512x512x1 (high-resolution CT slices)
+
 Specialized convolutional layers for lung features
+
 Dropout layers for robust learning
+
 Hounsfield Unit normalization
+
 Output Layer: Abnormality detection mask
+
 Results Output
+
 Abnormality detection masks
+
 Visualization plots showing:
+
 Original CT slice (bone colormap)
 Ground truth annotations
+
 Predicted abnormalities
+
 Training metrics and progress
+
 Performance Metrics
+
 Mean Squared Error (MSE)
+
 Mean Absolute Error (MAE)
+
 Real-time visualization every 2 epochs
+
 Abnormality detection accuracy
+
 Contributing
 Fork the repository
+
 Create your feature branch (git checkout -b feature/NewFeature)
 Commit your changes (git commit -m 'Add NewFeature')
 Push to the branch (git push origin feature/NewFeature)
